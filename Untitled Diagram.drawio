@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T17:06:02.200Z" agent="5.0 (X11)" version="20.4.1" etag="wp6HjQ8epc_7ihfDOIkl" type="github"><diagram id="_gZGuKBnhAaxAh_vpNUN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-17T17:15:09.600Z" agent="5.0 (X11)" etag="j_-r7Tojp3B7e_esuT2K" version="20.4.1" type="github">
+  <diagram id="_gZGuKBnhAaxAh_vpNUN" name="Page-1">
+    <mxGraphModel dx="1718" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vs1LJpaXAVgdFeCtgQNw-1" value="&lt;div&gt;MAUL&lt;/div&gt;&lt;div&gt;/opt/wildfly_server/wildfly-18.0.1.Final/standalone{instancia}/log&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs1LJpaXAVgdFeCtgQNw-2" value="&lt;div&gt;YODA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs1LJpaXAVgdFeCtgQNw-3" value="&lt;div&gt;GROGU&lt;/div&gt;&lt;div&gt;/run/media/root/logfilesprod&lt;/div&gt;&lt;div&gt;[Aqui se encuentran dos carpetas que son maul y yoda) donde se guardan los logs&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs1LJpaXAVgdFeCtgQNw-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.32;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.004;exitY=0.554;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vs1LJpaXAVgdFeCtgQNw-3" target="Vs1LJpaXAVgdFeCtgQNw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vs1LJpaXAVgdFeCtgQNw-5" value="rsync a ese directorio del maul. " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="190" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs1LJpaXAVgdFeCtgQNw-6" value="En este directorio de grogu se encuentran todos los logs con los que me encontre que tenia. Disponible 1 Tb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vs1LJpaXAVgdFeCtgQNw-7" value="En el maul solo deben quedar los ultimos 3 logs mas nuevo (ultimos 3 dias) " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="10" width="420" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
